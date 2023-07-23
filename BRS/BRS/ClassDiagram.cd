@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BRS.BRS">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="cacheHitsLabel" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="help" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label14" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="vScrollBar1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>9yAABAhRAqIAQFAABAGCAAACAAAgAAABAQAABYNAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.AbstractCache">
+    <Position X="2.5" Y="1.25" Width="2.25" />
+    <Members>
+      <Field Name="CapacityMiss" Hidden="true" />
+      <Field Name="CompulsoryMiss" Hidden="true" />
+      <Field Name="ConflictMiss" Hidden="true" />
+      <Field Name="Hit" Hidden="true" />
+      <Field Name="indexOfPreviouslyAccessedBlock" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACBAAACAAAAAgGAQgAIgCAAAAAIAAAAIQAEAAEAACAA=</HashCode>
+      <FileName>ProgramLogic\AbstractCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.AbstractSet">
+    <Position X="7" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAEAAAAAAAAAEAAAAAAAAAAAAAAABAw=</HashCode>
+      <FileName>ProgramLogic\AbstractSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.Block">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="Empty" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.FifoCache">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\FifoCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.FifoSet">
+    <Position X="9.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\FifoSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.LruCache">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\LruCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.LruSet">
+    <Position X="9.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgg=</HashCode>
+      <FileName>ProgramLogic\LruSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.RandomCache">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\RandomCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BRS.ProgramLogic.RandomSet">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <InheritanceLine Type="BRS.ProgramLogic.AbstractSet" FixedFromPoint="true">
+      <Path>
+        <Point X="7.948" Y="2" />
+        <Point X="7.948" Y="1.438" />
+        <Point X="9.25" Y="1.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgramLogic\RandomSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
